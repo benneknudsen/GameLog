@@ -1,10 +1,38 @@
+html {
+  background-color: #0e1116;
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
 .app {
-  padding: 0 20%;
+  padding: 30px 20% 0px 20%;
+  height: 100vh;
+  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0e1116;
+  background: #14181c
+    url(https://s.ltrbxd.com/static/img/content-bg.0d9a0f0f.png) 0 -1px repeat-x;
+  background-image: url(https://s.ltrbxd.com/static/img/content-bg.0d9a0f0f.png);
+  background-position-x: 0px;
+  background-position-y: -1px;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(20, 24, 28);
   color: #fff;
 }
