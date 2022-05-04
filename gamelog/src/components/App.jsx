@@ -1,12 +1,8 @@
-import "./App.scss";
-import Navbar from "./Navbar";
+import React from 'react';
 
-function App() {
+export default function App() {
   return (
-    <div className="" >
-    <Navbar/>
+    <div className='App'>
     </div>
-    );
+  );
 }
-
-export default App;
